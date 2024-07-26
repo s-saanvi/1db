@@ -1,0 +1,4 @@
+create user 'name'@'localhost' identified by '123456';
+grant all privileges on *.* to 'name'@'localhost';
+alter table employee add constraint primary key (empno);
+alter table employee modify ename varchar(20) not null;
